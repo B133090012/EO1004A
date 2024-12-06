@@ -6404,7 +6404,7 @@ body ::-webkit-scrollbar-track {
  background:url(/image/background.jpg) no-repeat; background-size: 100%">
     <div id="page-header" class="ui fixed borderless menu" style="position: fixed; height: 49px; z-index:99999">
         <div id="menu" class="ui stackable mobile ui container computer" style="margin-left:auto;margin-right:auto;">
-            <a class="header item" href="/"><span style="font-family: 'Exo 2'; font-size: 1.5em; font-weight: 600; ">NSYSU EO1004(A)</span></a>
+           <span id=NSYSU style="font-family: 'Exo 2'; font-size: 15px; font-weight: 600; ">NSYSU EO1004(A)</span></a>
             <a class="desktop-only item " href="/"><i class="home icon"></i> 主页</a>
           
             <a class="item " href="problemset.php"><i class="list icon"></i>问题 </a>
@@ -6417,7 +6417,7 @@ body ::-webkit-scrollbar-track {
                                                   <div class="right menu">
                                 <a href="/userinfo.php?user=B133090012" style="color: inherit; ">
                     </a><div class="ui simple dropdown item"><a href="/userinfo.php?user=B133090012" style="color: inherit; ">
-                        B133090012                        <i class="dropdown icon"></i>
+                        <span id=B133>B133090012</span>                        <i class="dropdown icon"></i>
                         </a><div class="menu"><a href="/userinfo.php?user=B133090012" style="color: inherit; ">
                             </a><a class="item" href="modifypage.php"><i class="edit icon"></i>设置注册信息</a>
                                                                                         <a class="item" href="logout.php"><i class="power icon"></i>注销</a>
@@ -6905,6 +6905,17 @@ $(".hint pre").each(function(){
 	position: absolute;
 	left: 130px;
 	top: 65px;
+}
+#NSYSU {
+  position: absolute;
+  top: 7.5px;
+  left: 120px;
+}
+#B133 {
+  font-size: 10pt;
+  position: absolute;
+  left: 300px;
+  top: 15px;
 }
 </style>
 
